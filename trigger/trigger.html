@@ -1,21 +1,27 @@
 <script type="text/javascript">
-    RED.nodes.registerType('start-up-trigger',{
-        category: 'function',
+    RED.nodes.registerType('start-up-trigger', {
+        category: 'input',
         color: '#4169E1',
         defaults: {
+            name: { value: "" }
         },
-        inputs:0,
-        outputs:1,
+        inputs: 0,
+        outputs: 1,
         icon: "inject.png",
-        label: function() {
-            return this.name||"start-up-trigger";
+        label: function () {
+            return this.name || "start-up-trigger";
+        },
+        labelStyle: function () {
+            return this.name ? "node_label_italic" : "";
         }
     });
+
 </script>
 
 <script type="text/x-red" data-template-name="start-up-trigger">
     <div class="form-row">
-        <label for="node-input-name"><i class="icon-tag"></i>start-up-trigger</label>
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
     </div>
 </script>
 
