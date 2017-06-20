@@ -34,6 +34,8 @@
     "tslint": "^3.10.2",
     "typescript": "^1.8.10"
   },
-  "dependencies": {
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://52.55.240.135:4040/"
   }
 }
