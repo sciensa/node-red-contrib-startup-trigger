@@ -1,0 +1,37 @@
+{
+  "name": "node-red-contrib-startup-trigger",
+  "version": "0.1.0",
+  "description": "A simple node that starts a flow when server start up",
+  "repository": {
+  },
+  "keywords": [
+    "node-red",
+    "start-up-trigger-node",
+    "trigger"
+  ],
+  "node-red": {
+    "version": ">=0.11.0",
+    "nodes": {
+      "trigger": "trigger/trigger.js"
+    }
+  },
+  "author": "Sciensa Consulting <sciensa@sciensa.com.br> (http://github.com/sciensa)",
+  "contributors": [
+    "Aline Castro <aline.castro@sciensa.com> (http://github.com/alinecastro33)",
+    "Gabriel Carmelo Noguchi <gabriel.noguchi@sciensa.com> (http://github.com/gnoguchi)",
+    "Ian Nagano <ian.nagano@sciensa.com> (http://github.com/ianngn)",
+    "Rogério R. Alcântara <rogerio.alcantara@sciensa.com> (http://github.com/roalcantara)",
+    "Valter Junior <valter.junior@sciensa.com> (http://github.com/valterjnr)",
+    "Daniele Melo <daniele.melo@sciensa.com> (http://github.com/eleinadinha)",
+    "Lucas Machado <lucas.machado@sciensa.com> (http://github.com/machad0)"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "merge2": "^1.0.2",
+    "source-map-support": "^0.4.0",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    RED.nodes.registerType('start-up-trigger',{
+        category: 'function',
+        color: '#2E8B57',
+        defaults: {
+        },
+        inputs:0,
+        outputs:1,
+        icon: "inject.png",
+        label: function() {
+            return this.name||"start-up-trigger";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="start-up-trigger">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i>start-up-trigger</label>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="start-up-trigger">
+    <p>A simple node that starts a flow when server start up.</p>
+</script>
