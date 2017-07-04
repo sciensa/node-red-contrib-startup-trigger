@@ -4,7 +4,7 @@
   "description": "A simple node that starts a flow when server starts up",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:sciensa/node-red-contrib-startup-trigger.git"
+    "url": "git+ssh://git@bitbucket.org:sciensa/node-red-contrib-startup-trigger.git"
   },
   "keywords": [
     "node-red",
